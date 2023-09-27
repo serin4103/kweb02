@@ -1,0 +1,21 @@
+const a = 1 + 2;
+const b = 1.2;
+const string = `a: ${a} b: ${b}`;
+console.log(string);
+
+const [x, y, z] = [1, 2, 3];
+console.log(x, y, z);
+
+const c = {m: 10, n: 20, s: "abc"}
+const {m: m1, n: n1, s: s1} = c;
+console.log(m1, n1, s1);
+
+
+try {
+    console.log(d);
+    console.log("no error");
+} catch (err) {
+    console.log("error!");
+} finally {
+    console.log("finally!");
+}
